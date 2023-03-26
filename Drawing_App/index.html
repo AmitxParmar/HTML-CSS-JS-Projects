@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Etch-A-Sketch</h1>
+    </header>
+
+    <div id="game">
+      <div class="left">
+        <div class="options density">
+          <button
+            onclick="makeGrid()"
+            class="btn-mode sliderOfDensity"
+          ></button>
+          <h2>Density</h2>
+        </div>
+
+        <div class="options reset">
+          <button class="btn-mode reset"></button>
+          <h2>Reset</h2>
+        </div>
+
+        <div class="options save">
+          <button class="btn-mode"></button>
+          <h2>Save!</h2>
+        </div>
+      </div>
+
+      <div id="device">
+        <div class="container"></div>
+      </div>
+
+      <div class="right">
+        <div class="options">
+          <button class="btn-color bw"></button>
+          <h2>B&W</h2>
+        </div>
+
+        <div class="options">
+          <button class="btn-color lgbt"></button>
+          <h2>LGBTQ+</h2>
+        </div>
+
+        <div class="options">
+          <button class="btn-color eraser"></button>
+          <h2>Eraser</h2>
+        </div>
+      </div>
+      <script src="newScript.js"></script>
+    </div>
+  </body>
+</html>
